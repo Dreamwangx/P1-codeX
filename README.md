@@ -11,5 +11,9 @@ Vue3 + TypeScript + Vite + Capacitor scaffolding for enterprise mobile.
 - Week 7: Observability + phone/tablet layout helper baseline.
 - Week 8: Feature flags + release runbook + smoke tests.
 
-## Structure
-See `docs/architecture.md`, `docs/week1-4-plan.md`, and `docs/next-phase-plan.md`.
+## 快速入口
+- 架构说明：`docs/architecture.md`
+- 里程碑清单：`docs/week1-4-plan.md`
+- 下一阶段规划：`docs/next-phase-plan.md`
+- 发布手册：`docs/release/runbook.md`
+- **本地安装与调试（重点）**：`docs/local-dev-debug.md`
