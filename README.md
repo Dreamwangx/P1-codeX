@@ -1,19 +1,17 @@
-# Enterprise Mobile Starter (Week 1-8)
+# Enterprise Mobile Starter (React Native)
 
-Vue3 + TypeScript + Vite + Capacitor scaffolding for enterprise mobile.
+This branch switches the mobile stack to **React Native** and provides a Week 1-8 level scaffold equivalent to the previous WebView/Capacitor baseline.
 
-## Scope implemented
-- Week 1-2: Monorepo scaffold, engineering conventions, app bootstrap.
-- Week 3: Bridge MVP (invoke/result/error/timeout/capability check) + scan plugin contract.
-- Week 4: Request + Auth MVP (http client, unified errors, trace id, token refresh single-flight).
-- Week 5: Push integration MVP (register/token/subscription abstraction).
-- Week 6: BLE integration MVP (permission/scan/connect/disconnect abstraction).
-- Week 7: Observability + phone/tablet layout helper baseline.
-- Week 8: Feature flags + release runbook + smoke tests.
+## What is included
+- Monorepo structure and TypeScript baseline.
+- RN app scaffold under `apps/mobile-rn`.
+- Bridge layer (scan/push/ble) with timeout and capability checks.
+- HTTP/Auth infrastructure with trace id and token refresh single-flight.
+- Push/BLE service orchestration.
+- Telemetry (logger/error/perf), feature flags, and layout helpers.
+- CI checks: `npm test` + `npm run typecheck`.
 
-## 快速入口
-- 架构说明：`docs/architecture.md`
-- 里程碑清单：`docs/week1-4-plan.md`
-- 下一阶段规划：`docs/next-phase-plan.md`
-- 发布手册：`docs/release/runbook.md`
-- **本地安装与调试（重点）**：`docs/local-dev-debug.md`
+## Quick links
+- RN setup and debug guide: `docs/rn/local-dev-debug-rn.md`
+- RN architecture: `docs/rn/architecture-rn.md`
+- Next phase plan (RN): `docs/rn/next-phase-plan-rn.md`

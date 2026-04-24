@@ -1,7 +1,7 @@
 {
   "name": "enterprise-mobile",
   "private": true,
-  "version": "0.2.0",
+  "version": "0.3.0",
   "workspaces": [
     "apps/*",
     "packages/*"
@@ -9,6 +9,9 @@
   "scripts": {
     "typecheck": "tsc -p tsconfig.base.json --noEmit",
     "lint": "echo 'lint placeholder'",
-    "test": "node --test tests/*.test.mjs"
+    "test": "node --test tests/*.test.mjs",
+    "rn:start": "npm run start -w apps/mobile-rn",
+    "rn:android": "npm run android -w apps/mobile-rn",
+    "rn:ios": "npm run ios -w apps/mobile-rn"
   }
 }

@@ -1,0 +1,11 @@
+{
+  "name": "@apps/mobile-rn",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "start": "echo 'Use React Native CLI: npx react-native start'",
+    "ios": "echo 'Use React Native CLI: npx react-native run-ios'",
+    "android": "echo 'Use React Native CLI: npx react-native run-android'",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  }
+}
